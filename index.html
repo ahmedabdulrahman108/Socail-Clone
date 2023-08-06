@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Clone</title>
+    <!-- Favicon Link -->
+    <link rel="favicon" href="img/logo.png" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="main.css" />
+    <!-- icon cdn -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Start Header-->
+    <header>
+      <section class="container">
+        <div class="header-wrapper">
+          <div class="logo">
+            <img src="img/logo.png" alt="logo" />
+            <h2>Socail Clone</h2>
+          </div>
+          <div class="header-right">
+            <ion-icon
+              class="darkmood"
+              id="dark-icon"
+              name="sunny-outline"
+            ></ion-icon>
+
+            <div class="search">
+              <ion-icon name="search-outline"></ion-icon>
+              <input type="search" name="search" placeholder="Search here" />
+            </div>
+            <button class="button icon-button">
+              <ion-icon name="add-circle-outline"></ion-icon>Craete
+            </button>
+            <div class="user">
+              <img src="img/user/user-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- End Header-->
+    <!-- Main Section -->
+    <section class="main">
+      <div class="container">
+        <div class="wrapper">
+          <!--Start Main Left -->
+          <div class="main-left">
+            <div class="profile">
+              <img src="img/user/user-1.png" alt="User" />
+              <div class="name">
+                <h4>Ahmed Abdul Rahman</h4>
+                <span>@ahmed</span>
+              </div>
+            </div>
+            <div class="left-menu">
+              <ul>
+                <li class="menu-active">
+                  <a href="#">
+                    <ion-icon name="home-outline"></ion-icon>
+                    <span>Home</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <ion-icon name="people-outline"></ion-icon>
+                    <span>People</span>
+                  </a>
+                  <span class="notificatio">8</span>
+                </li>
+                <li>
+                  <a href="#">
+                    <ion-icon name="image-outline"></ion-icon>
+                    <span>Photos</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <ion-icon name="newspaper-outline"></ion-icon>
+                    <span>News Feed</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <span>Profile</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <ion-icon name="settings-outline"></ion-icon>
+                    <span>Settings</span>
+                  </a>
+                  <span class="notificatio gray">2</span>
+                </li>
+              </ul>
+            </div>
+            <div class="left-invitations">
+              <h4 class="min-head">
+                Invitations<span class="notificatio red">4</span>
+              </h4>
+              <div class="invitations-card">
+                <div class="img-box">
+                  <img src="img/event.jpg" alt="Event Invetation" />
+                  <img class="small" src="img/user/user-1.png" alt="User" />
+                  <h3>How to Build a Strong Company</h3>
+                </div>
+                <div class="invetations-button">
+                  <button class="button">Accept Invetation</button>
+                  <button class="button only">
+                    <ion-icon name="close-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End Main Left -->
+
+          <!--Start Main Center -->
+          <div class="main-center">
+            <div class="story">
+              <div class="single-story add-story">
+                <img class="bg" src="img/s1.png" alt="Story" />
+                <div class="add">
+                  <ion-icon name="add-outline"></ion-icon>
+                  <span>Add Story</span>
+                </div>
+              </div>
+
+              <div class="single-story">
+                <img class="bg" src="img/s2.png" alt="Story" />
+                <img class="story-user" src="img/user/user-2.png" alt="user" />
+                <span>Amr A.</span>
+              </div>
+              <div class="single-story">
+                <img class="bg" src="img/s3.png" alt="Story" />
+                <img class="story-user" src="img/user/user-3.png" alt="user" />
+                <span>Amr A.</span>
+              </div>
+              <div class="single-story">
+                <img class="bg" src="img/s4.png" alt="Story" />
+                <img class="story-user" src="img/user/user-4.png" alt="user" />
+                <span>Amr A.</span>
+              </div>
+              <div class="single-story">
+                <img class="bg" src="img/s5.png" alt="Story" />
+                <img class="story-user" src="img/user/user-5.png" alt="user" />
+                <span>Amr A.</span>
+              </div>
+            </div>
+            <div class="new-post">
+              <div>
+                <img src="img/user/user-1.png" alt="user" />
+                <input
+                  type="text"
+                  name="post"
+                  placeholder="What's on your mind,"
+                />
+              </div>
+              <button class="button icon-button">
+                <ion-icon name="link-outline"></ion-icon>Post
+              </button>
+            </div>
+            <div class="post">
+              <div class="post-header">
+                <div class="post-user">
+                  <img src="img/user/user-6.png" alt="user" />
+                  <h4>Amr Abdul Rahman <span>08 hours ago</span></h4>
+                </div>
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+              </div>
+              <div class="post-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Corrupti delectus laudantium pariatur error, cum voluptate
+                  ipsum cumque facere ad praesentium, id natus laboriosam eius,
+                  voluptatibus vel. Qui dolore aliquid a.
+                </p>
+                <div class="post-image">
+                  <div>
+                    <img src="img/p1.png" alt="post" />
+                  </div>
+                  <div>
+                    <img src="img/p2.png" alt="post2" />
+                    <img src="img/p3.png" alt="post3" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End Main Center -->
+
+          <!--Start Main Right -->
+          <div class="main-right">
+            <div class="request">
+              <h4 class="min-head">
+                Request<span class="notificatio">2</span>
+              </h4>
+              <div class="single-req">
+                <div class="r-img">
+                  <img src="img/user/user-7.png" alt="user">
+                  <h4><span>Ahmed Gaber</span> Accept wants to add you to friends</h4>
+                </div>
+                <div class="r-button">
+                  <button class="button">Accept</button>
+                  <button class="button button-border">Decline</button>
+                </div>
+              </div>
+
+              <div class="single-req">
+                <div class="r-img">
+                  <img src="img/user/user-8.png" alt="user">
+                  <h4><span>Moahmmed Ali</span> Accept wants to add you to friends</h4>
+                </div>
+                <div class="r-button">
+                  <button class="button">Accept</button>
+                  <button class="button button-border">Decline</button>
+                </div>
+              </div>
+            </div>
+            <div class="contacts">
+              <h4 class="min-head">
+                Contacts<span class="notificatio gray">50</span>
+              </h4>
+            </div>
+            <div class="contact-list">
+              <div class="single-contact">
+                <div>
+                  <img src="img/user/user-9.png" alt="user">
+                  <h4>Ahmed Ali</h4>
+                </div>
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+              </div>
+              <div class="single-contact">
+                <div>
+                  <img src="img/user/user-3.png" alt="user">
+                  <h4>Medhat Muhsin</h4>
+                </div>
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+              </div>
+              <div class="single-contact">
+                <div>
+                  <img src="img/user/user-4.png" alt="user">
+                  <h4>Osama Zayna</h4>
+                </div>
+                <span class="notificatio red">5</span>
+              </div>
+              <div class="single-contact">
+                <div>
+                  <img src="img/user/user-5.png" alt="user">
+                  <h4>Mustafa Jabir</h4>
+                </div>
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+              </div>
+              <div class="single-contact">
+                <div>
+                  <img src="img/user/user-8.png" alt="user">
+                  <h4>Mahmoud Hares</h4>
+                </div>
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+              </div>
+              <div class="single-contact">
+                <div>
+                  <img src="img/user/user-10.png" alt="user">
+                  <h4>Mostafa Zaki</h4>
+                </div>
+                <span class="notificatio red">10</span>
+              </div>
+              <div class="single-contact">
+                <div>
+                  <img src="img/user/user-6.png" alt="user">
+                  <h4>Waled AbdelHamed</h4>
+                </div>
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+              </div>
+              <div class="single-contact">
+                <div>
+                  <img src="img/user/user-7.png" alt="user">
+                  <h4>Yasser AbdelNasser</h4>
+                </div>
+                <span class="notificatio red">11</span>
+              </div>
+            </div>
+          </div>
+          <!--End Main right -->
+        </div>
+      </div>
+    </section>
+    <!-- End Main Section -->
+
+  </body>
+</html>
